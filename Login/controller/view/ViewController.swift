@@ -14,9 +14,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         
     }
-
+    
     @IBAction func logar(_ sender: UIButton) {
         
         if(validarLogin(login: login, senha: senha)){
