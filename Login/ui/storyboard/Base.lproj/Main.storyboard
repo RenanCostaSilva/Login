@@ -16,47 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="3Nj-rV-45o">
-                                <rect key="frame" x="20" y="308" width="350" height="362"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="games.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Gzq-pB-aHZ">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="3Nj-rV-45o">
+                                <rect key="frame" x="20" y="327" width="350" height="190"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hp9-5y-4dP">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="54"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="wOA-qf-PZV"/>
-                                        </constraints>
+                                        <rect key="frame" x="16" y="0.0" width="318" height="34"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="30"/>
+                                                <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-M7-cVY">
-                                        <rect key="frame" x="0.0" y="87" width="350" height="54"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="fWR-uX-HnY"/>
-                                        </constraints>
+                                        <rect key="frame" x="16" y="78" width="318" height="34"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="30"/>
+                                                <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2M-G9-NnO">
-                                        <rect key="frame" x="0.0" y="174" width="350" height="54"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="54" id="GYb-p2-Qr0"/>
-                                        </constraints>
+                                        <rect key="frame" x="16" y="156" width="318" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Logar" cornerStyle="medium"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="30"/>
+                                                <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
@@ -64,60 +63,26 @@
                                             <action selector="logar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aIy-hL-5Zb"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ou logue com " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpo-4Z-Wfm">
-                                        <rect key="frame" x="0.0" y="261" width="350" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bqg-LA-UFc">
-                                        <rect key="frame" x="0.0" y="318" width="350" height="44"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gU0-AE-Yj9">
-                                                <rect key="frame" x="0.0" y="0.0" width="170" height="44"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="44" id="Uzy-3U-3tg"/>
-                                                    <constraint firstAttribute="width" constant="170" id="sb3-Yd-hyB"/>
-                                                </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" image="facebook-icon.png" title="Facebook" imagePadding="10"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="22"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Uqa-fz-A0f">
-                                                <rect key="frame" x="170" y="0.0" width="10" height="44"/>
-                                            </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8B2-OP-5hi">
-                                                <rect key="frame" x="180" y="0.0" width="170" height="44"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="170" id="kuY-ez-TbZ"/>
-                                                </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" image="google.png" title="Google" imagePadding="10">
-                                                    <color key="baseBackgroundColor" red="0.81383946998832157" green="0.64536313640211385" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </buttonConfiguration>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="22"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="hp9-5y-4dP" firstAttribute="leading" secondItem="3Nj-rV-45o" secondAttribute="leading" constant="16" id="6Py-bK-aa8"/>
+                                    <constraint firstItem="3d9-M7-cVY" firstAttribute="leading" secondItem="3Nj-rV-45o" secondAttribute="leading" constant="16" id="I6e-fL-PZU"/>
+                                    <constraint firstAttribute="trailing" secondItem="hp9-5y-4dP" secondAttribute="trailing" constant="16" id="NO5-sb-6Xw"/>
+                                    <constraint firstAttribute="trailing" secondItem="3d9-M7-cVY" secondAttribute="trailing" constant="16" id="RjM-6J-ztv"/>
+                                    <constraint firstAttribute="trailing" secondItem="E2M-G9-NnO" secondAttribute="trailing" constant="16" id="TfK-dR-nvZ"/>
+                                    <constraint firstItem="E2M-G9-NnO" firstAttribute="leading" secondItem="3Nj-rV-45o" secondAttribute="leading" constant="16" id="noC-Ig-KVc"/>
+                                    <constraint firstItem="E2M-G9-NnO" firstAttribute="top" secondItem="3d9-M7-cVY" secondAttribute="bottom" constant="44" id="qXB-Hl-fO1"/>
+                                    <constraint firstItem="3d9-M7-cVY" firstAttribute="top" secondItem="hp9-5y-4dP" secondAttribute="bottom" constant="44" id="ux0-Oz-Dnz"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
-                            <constraint firstItem="3Nj-rV-45o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NgM-yA-qd2"/>
-                            <constraint firstItem="3Nj-rV-45o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="264" id="nfo-Fq-AxE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Nj-rV-45o" secondAttribute="trailing" constant="20" id="ynh-AS-VjT"/>
+                            <constraint firstItem="3Nj-rV-45o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5j2-pD-2xX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Nj-rV-45o" secondAttribute="trailing" constant="20" id="8yP-37-mmc"/>
+                            <constraint firstItem="3Nj-rV-45o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="is3-aV-DiW"/>
+                            <constraint firstItem="3Nj-rV-45o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qqJ-10-38h"/>
                         </constraints>
                     </view>
                     <connections>
@@ -131,8 +96,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebook-icon.png" width="16" height="16"/>
-        <image name="google.png" width="16" height="16"/>
+        <image name="games.jpeg" width="564" height="1002"/>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

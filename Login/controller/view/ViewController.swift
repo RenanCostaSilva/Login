@@ -15,8 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
     }
+    
+    // Fecha Teclado
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        return login.resignFirstResponder()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    // Fim fecha teclado
     
     @IBAction func logar(_ sender: UIButton) {
         
