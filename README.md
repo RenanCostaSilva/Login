@@ -1,14 +1,33 @@
 # Login
-<p> Este é uma exemplo de uso de logion no IOS </p>
-<div>
-<div><img src="https://i.imgur.com/sQKFmaD.png" width = "220px" heigth = "220px"/></div><br/>
-<div>
-  <span> App: Login </span></br>
-  <span> Xcode Version: 13 </span></br>
-  <span> IOS Version: 15 </span></br>
-  <span> Emulator : Sim </span></br>
-  <span> Hardware(Fisico) : Não </span></br>
-  <span> SO: Big Sur 11.6.2 </span></br>
-  <span> Description: Exemplo de uso de Login no  Iphone no macos </span></br>
-</div>
-</div>
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RenanCostaSilva/Camera2/blob/main/LICENSE)
+
+# Sobre o aplicativo
+Este é uma exemplo de uso de logion no IO
+
+## Imagens da Aplicação
+<img src="https://i.imgur.com/sQKFmaD.png" width = "220px" heigth = "220px"/>
+
+## Tecnologias Utilizadas
+
+### Linguagem
+- Swift
+
+### Arquitetura
+- MVVM
+
+### Xcode Version
+- 13
+
+### IOS
+- 15.5
+
+## Teste
+Testado no emulador e no celular
+
+## Sistema Operacional
+Big Sur 11.6.2
+
+# Autor
+Renan Costa e Silva
+
+https://www.linkedin.com/in/renan-costa-e-silva-39218a124/
